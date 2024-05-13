@@ -15,7 +15,7 @@ function CheckHowManyCoffees()
         displayText = "You are probably not awake yet";
     }
     
-    else if(actualNumberOfCoffeesDrank == numberOfCoffeesToBeAwake)
+    else if(actualNumberOfCoffeesDrank === numberOfCoffeesToBeAwake)
     {
         displayText = "You should be awake";
     }
